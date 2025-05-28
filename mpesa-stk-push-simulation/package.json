@@ -1,0 +1,53 @@
+{
+  "name": "mpesa-stk-push-simulation",
+  "version": "1.0.0",
+  "description": "A Node.js implementation for simulating M-Pesa STK Push transactions for school fee payments",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test/comprehensive-tests.js",
+    "test:basic": "node test/basic-tests.js",
+    "test:all": "npm run test:basic && npm run test",
+    "dev": "nodemon index.js",
+    "example": "node examples/usage-examples.js",
+    "lint": "eslint src/ test/ examples/",
+    "format": "prettier --write src/ test/ examples/"
+  },
+  "keywords": [
+    "mpesa",
+    "stk-push",
+    "nodejs",
+    "payment",
+    "kenya",
+    "mobile-money",
+    "fintech",
+    "school-fees",
+    "safaricom"
+  ],
+  "author": "Brandon Ogola",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edogola4/mpesa-stk-push-simulation.git"
+  },
+  "bugs": {
+    "url": "https://github.com/oedogola4/mpesa-stk-push-simulation/issues"
+  },
+  "homepage": "https://github.com/edogola4/mpesa-stk-push-simulation#readme",
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0",
+    "nodemon": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "files": [
+    "src/",
+    "examples/",
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ]
+}
