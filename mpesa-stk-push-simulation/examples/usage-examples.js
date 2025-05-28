@@ -5,7 +5,7 @@ console.log('=== M-Pesa STK Push Usage Examples ===\n');
 
 // Example 1: School Fees Payment
 console.log('📚 Example 1: School Fees Payment');
-const schoolFees = stkPush("254706322944", 15000, "Term 1 School Fees - John Doe");
+const schoolFees = stkPush("254706322944", 15000, "Term 1 School Fees - Bran Don");
 console.log(JSON.stringify(schoolFees, null, 2));
 
 // Example 2: Exam Fees
